@@ -1,0 +1,52 @@
+nav {
+    width: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(28, 28, 31, 1) 18%, rgba(0, 212, 255, 1) 100%);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Asegura espacio entre logo y ul */
+    padding: 0 20px;
+    /* Agrega padding para espacio alrededor del contenido */
+}
+
+.nav-logo {
+    height: 50px;
+    /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin-right: 20px;
+    /* Espacio entre la imagen y los botones */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(236, 243, 238);
+    text-decoration: none;
+    font-size: 16px;
+    background-color: rgb(0, 0, 0);
+    /* Fondo negro */
+    padding: 10px 15px;
+    /* Espaciado interno */
+    border: 1px solid gray;
+    /* Margen gris */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: pink;
+    font-size: 18px;
+    transform: scale(1.1);
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Curriculum</title>
+</head>
+
+<body>
+    <h1>Curriculum Vitae</h1>
+    <ul>
+        {% for item in curriculum %}
+        <li>{{ item.first_name }} {{ item.last_name }}</li>
+        <li>Email: {{ item.email }}</li>
+        <li>Phone: {{ item.phone }}</li>
+        <li>Education: {{ item.education }}</li>
+        <li>Experience: {{ item.experience }}</li>
+        <li>Skills: {{ item.skills }}</li>
+        <br>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
